@@ -1,17 +1,10 @@
-De tudo ao meu amor serei atento
-Antes, e com tal zelo, e sempre, e tanto
-Que mesmo em face do maior encanto
-Dele se encante mais meu pensamento.
+O git rebase é uma ferramenta para integrar mudanças de um branch em outro.
 
-Quero vivê-lo em cada vão momento
-E em seu louvor hei de espalhar meu canto
-E rir meu riso e derramar meu pranto
-Ao seu pesar ou seu contentamento
+Merge (Revisão):
+Cria um commit de merge que preserva o histórico exato do desenvolvimento, mas pode criar um gráfico de commits "bagunçado" (muitos galhos se unindo).
 
-E assim, quando mais tarde me procure
-Quem sabe a morte, angústia de quem vive
-Quem sabe a solidão, fim de quem ama
+Rebase:
+Move os commits do seu branch para o topo da linha do branch de destino (ex: main).
+Resultado: Um histórico de commits linear e limpo, parecendo que o desenvolvimento ocorreu em sequência.
 
-Eu possa me dizer do amor (que tive):
-Que não seja imortal, posto que é chama
-Mas que seja infinito enquanto dure.
+Regra de Ouro: NUNCA faça rebase em branches que já foram enviados (push) para um repositório remoto e são compartilhados com outras pessoas. Isso confunde o histórico de todos.s
